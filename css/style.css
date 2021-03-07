@@ -199,13 +199,13 @@ a {
     display: none;
 }
 
-.categoria__img img {
+.categoria__img a img {
     border-radius: .3rem;
     width: 100px;
     margin-left: 1.5rem;
 }
 
-.categoria__img img:first-of-type {
+.categoria__img a img :first-of-type {
     margin-left: 0;
 }
 
@@ -255,3 +255,139 @@ a {
 
 
 /* footer final  */
+
+
+/*------------------ pagina de movi----------------------------------*/
+
+.hero--2 {
+    height: 500px;
+    background-image: url(../img/heroMovi.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__movi {
+    background-color: var(--dark);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__movi a i {
+    color: var(--claro);
+    margin-left: 2rem;
+}
+
+.main__movi h1 {
+    color: var(--claro);
+}
+
+.container__movi {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.movi__info--title {
+    padding: 0;
+    color: #71D074;
+    font-size: 2rem;
+}
+
+.main__movi--info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movi__info--text {
+    flex-basis: 50%;
+    color: var(--grey);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info__p--R {
+    display: inline-block;
+    background-color: var(--grey);
+    padding: .4rem;
+    color: var(--claro);
+}
+
+.info__p--HD {
+    display: inline-block;
+    border: 1px solid var(--claro);
+    padding: .4rem;
+}
+
+@media (max-width: 460px) {
+    .main__movi--info {
+        flex-wrap: wrap;
+    }
+    .movi__info--title {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .movi__info--text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+.btn__movi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.btn__movi i {
+    margin-right: 1rem;
+}
+
+.btn__movi--2 {
+    background-color: var(--grey);
+    color: var(--claro);
+    margin-bottom: 2rem;
+}
+
+.descripcion {
+    margin-bottom: 2rem;
+}
+
+.descripcion__principal {
+    font-size: 1.6rem;
+    color: var(--claro);
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.descripcion__autor {
+    color: var(--grey);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.movi__icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--claro);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.movi__icons figcaption {
+    font-size: 1.5rem;
+}
+
+.main__movi img {
+    margin-bottom: 1.5rem;
+}
