@@ -391,3 +391,11 @@ a {
 .main__movi img {
     margin-bottom: 1.5rem;
 }
+
+.footer__autor {
+    display: block;
+    width: 100%;
+    color: var(--claro);
+    text-align: center;
+    line-height: 2;
+}
